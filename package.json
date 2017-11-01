@@ -1,0 +1,25 @@
+{
+  "name": "protractor-must-know",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/protractor conf.js",
+    "fb-login": "./node_modules/protractor/bin/protractor ./fb-login/conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wahengchang/protractor-must-know.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wahengchang/protractor-must-know/issues"
+  },
+  "homepage": "https://github.com/wahengchang/protractor-must-know#readme",
+  "dependencies": {
+    "protractor": "^5.2.0"
+  },
+  "devDependencies": {}
+}
